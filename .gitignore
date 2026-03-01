@@ -1,0 +1,109 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.classpath
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Java & Maven
+target/
+*.jar
+*.class
+*~
+.classpath
+.project
+.settings/
+dependency-reduction-pom.xml
+*.jks
+
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+build/
+*.apk
+*.app
+*.appbundle
+*.ipa
+.symlinks/
+.env*
+!.env.example
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# Android
+android/app/debug
+android/app/profile
+android/app/release
+android/.gradle/
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+
+# Design & Assets
+design/**/*.figma
+*.sketch
+*.xd
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+.nyc_output/
+lcov.info
+
+# Build outputs
+dist/
+out/
+.next
+.webpack
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# CDN & Cache
+.cache/
+cache/
+
+# Specific project excludes
+dashboard-desktop/.idea/
+dashboard-desktop/out/
+mobile-app/.*
